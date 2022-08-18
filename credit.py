@@ -1,8 +1,8 @@
 #Algoritmo de Luhn
 
-#splitando o número em uma array para tratamento individual
 cartao = input('Insira um número de cartão: ')
 
+#splitando o número em uma array para tratamento individual
 lista = [int(x) for x in cartao]
 verificador = lista.pop()
 
