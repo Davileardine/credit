@@ -19,7 +19,10 @@ for i in range(len(lista)):
       soma += lista[i]
 
 if soma % 10 + verificador == 10:
-
+   
+   if lista[0] == 3 and lista[1] == 7 or lista[1] == 4:
+      print('Amex')
+   
    if lista[0] == 5 or lista[0] == 3:
       print('Mastercard')
    if lista[0] == 4:
